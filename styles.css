@@ -1,0 +1,195 @@
+body {
+  background: #0b132b;
+}
+
+.container-nav {
+  display: flex;
+  padding: 10px;
+  background-color: #1c2541;
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+  color: #5bc0be;
+  align-items: center;
+}
+
+nav li a:hover {
+  color: #6fffe9;
+}
+
+header {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #6fffe9;
+}
+
+header p {
+  font-size: 30px;
+  color: #fff;
+}
+
+.div-aboutme {
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  margin: 0 80px;
+}
+
+.about-me {
+  font-family: "Geologica", sans-serif;
+  color: #6fffe9;
+  text-align: center;
+  font-size: 28px;
+}
+
+.main-aboutme p {
+  font-family: "Geologica", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 100px;
+}
+
+.main-aboutme span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.container-skills {
+  color: #6fffe9;
+  font-family: "Geologica", sans-serif;
+  text-align: center;
+}
+
+.container-skills h2 {
+  font-size: 28px;
+}
+
+.container-skills h3 {
+  font-size: 24px;
+}
+
+.html {
+  display: inline-block;
+  margin-right: 50px;
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  width: 120px;
+}
+
+.html span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}
+
+.css {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  width: 120px;
+  margin-right: 50px;
+}
+
+.css span {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.js {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  width: 120px;
+  margin-right: 50px;
+}
+
+.js span {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.bs {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  width: 120px;
+  margin-right: 50px;
+}
+
+.bs:hover {
+  background-color: transparent;
+}
+
+.bs span {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.tailwind {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 1px solid #6fffe9;
+  border-radius: 10px;
+  box-shadow: 2px 5px #6fffe9;
+  width: 120px;
+}
+
+.tailwind span {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.tailwind:hover {
+  background-color: #3a506b;
+}
+
+button {
+  display: block;
+  margin-left: 92%;
+  background-color: #6fffe9;
+  width: 62px;
+  border-radius: 100%;
+}
